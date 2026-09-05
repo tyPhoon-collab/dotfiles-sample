@@ -16,6 +16,11 @@
 
     nixvim.url = "github:nix-community/nixvim/main";
 
+    hunk = {
+      url = "github:modem-dev/hunk";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+
     yazi-plugins = {
       url = "github:yazi-rs/plugins";
       flake = false;
@@ -58,7 +63,7 @@
             core
             coreConfig
             ;
-          inherit (inputs) nixvim;
+          inherit (inputs) hunk nixvim;
           yaziPlugins = inputs.yazi-plugins;
         };
 
