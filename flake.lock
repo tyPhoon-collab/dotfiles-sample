@@ -31,11 +31,11 @@
     "core": {
       "flake": false,
       "locked": {
-        "lastModified": 1782738673,
-        "narHash": "sha256-4boFQjEa166N8uvqcv/H1nWAjQcGHkdgpgHMhNqGVOQ=",
+        "lastModified": 1788644917,
+        "narHash": "sha256-H52K+yzMPK0eueSIAtvHuEhkHo1FsTiAsuxx/6EWwC4=",
         "owner": "tyPhoon-collab",
         "repo": "core",
-        "rev": "c303f149c3b89f2246f098f912522321d05f9a95",
+        "rev": "5fe0dfeaabca56762c6ce65f4835122375b337af",
         "type": "github"
       },
       "original": {
